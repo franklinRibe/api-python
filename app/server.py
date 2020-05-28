@@ -15,7 +15,7 @@ class Users(Resource):
         query = conn.execute("select * from users")
         result = [dict(zip(tuple(query.keys()), i)) for i in query.cursor]
         return jsonify(result)
-
+        
 api.add_resource(Users, '/users')
 
 if __name__ == '__main__':
