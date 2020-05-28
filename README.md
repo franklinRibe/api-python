@@ -20,4 +20,8 @@ python server.py
 ```
 ## Consultar usuários 
 
-Para consultar usuários basta acessar 
+Para consultar usuários cadastrados na base basta acessar a rota /users
+
+como no exemplo:
+
+http://localhost/users
