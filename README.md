@@ -24,4 +24,4 @@ Para consultar usuários cadastrados na base basta acessar a rota /users
 
 como no exemplo:
 
-http://localhost/users
+http://localhost:5000/users
